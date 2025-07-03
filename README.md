@@ -23,5 +23,14 @@ While existing ride-sharing apps prioritize cost and speed, __they often ignore 
 - __Data Sources__: OpenStreetMap, city crime datasets, lighting data, fare estimates
 
 ## Project Structure
-<pre> ```bash SafeCab/ ├── client/ # React frontend ├── server/ # Express backend for routing and API ├── ml-model/ # Python ML model to classify unsafe routes ├── graph/ # Graph algorithms (Dijkstra, scoring logic) ├── data/ # Crime, lighting, and road network data └── README.md ``` </pre>
+```
+SafeCab/
+├── client/        # React frontend
+├── server/        # Express backend for routing and API
+├── ml-model/      # Python ML model to classify unsafe routes
+├── graph/         # Graph algorithms (Dijkstra, scoring logic)
+├── data/          # Crime, lighting, and road network data
+└── README.md
+```
+
 
